@@ -58,15 +58,11 @@
 
 
 <script>
-    // Captura o formulário pelo ID
     var formulario = document.getElementById("meuFormulario");
 
-    // Adiciona um ouvinte de evento de envio do formulário
     formulario.addEventListener("submit", function(event) {
-        // Impede o envio normal do formulário
         event.preventDefault();
 
-        // Redireciona para a página de destino com a mensagem
         window.location.href = "indexrespostaenviada.html";
     });
 </script>
