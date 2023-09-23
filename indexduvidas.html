@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesduvidas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="slide.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap" rel="stylesheet">
+    <title>Piola School</title>
+    
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <nav>
+            <ul id="menu">
+                <li class="Piola">
+                    <span>Piola Tech School</span>
+                    <span class="Duvidas">Dúvidas</span>
+                </li>
+                <img src="img/logo.png" class="logo">
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="principal">
+        <br/>
+        <br/>
+        <div class="barra-de-busca">
+            <input type="text" id="nome-aluno" placeholder="Digite a dúvida">
+            <button type="button" onclick="buscarAluno()">Buscar</button>
+        </div>
+
+        <h1>Lista de Dúvidas</h1>
+    <table>
+        <tr>
+            <th>Pergunta</th>
+            <th>Responder</th>
+        </tr>
+        <tr>
+            <td>O curso inclui estágios ou oportunidades de trabalho prático?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Qual é a melhor linguagem de programação para iniciantes?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Como fazer um layout responsivo em CSS?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Quais linguagens de programação são ensinadas no curso?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Quais são os requisitos para a obtenção do diploma de Ciência da Computação?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Qual é a diferença entre let, const e var em JavaScript?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Qual é a diferença entre C e C++?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>O que é flexbox e como ele simplifica o layout em CSS?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Qual é a linguagem de programação mais adequada para iniciantes?</td>
+            <td><button class="answer-button">Responder</button></td>
+        </tr>
+        <tr>
+            <td>Quais são as taxas de colocação no mercado de trabalho após a graduação?</td>
+            <td><button class="answer-button">Responder</button></td>
+
+        </tr>
+        
+    </table>
+
+        
+    </main>
+
+    <script>
+        // Captura todos os elementos com a classe "meuBotao"
+        var botoes = document.querySelectorAll(".answer-button");
+
+        // Adiciona um ouvinte de evento de clique a cada botão
+        botoes.forEach(function(botao) {
+            botao.addEventListener("click", function() {
+                // Redireciona para a outra página
+                window.location.href = "indexrespostas.html";
+            });
+        });
+    </script>
+    
+    
+</body>
+</html>

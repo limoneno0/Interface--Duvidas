@@ -1,0 +1,194 @@
+#cabeçalho{
+    list-style-type: none;
+    background-color: #021b30;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: x-large;
+}
+  
+#menu li{
+    display: inline;
+}
+  
+
+.logo{
+    margin-left: 550px;
+    margin-right: 100px;
+    width: 70x;
+    height: 70px;
+}
+
+.Duvidas{
+    color: rgb(223, 216, 216); 
+    font-size: smaller;
+    padding-right: 10px;
+    text-align: center;
+}
+  
+.Piola{
+    font-size: xx-large;
+    color: #021b30;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #988b8e;
+    font-family: "Questrial", sans-serif;
+    margin-left: 0px;
+    margin-right: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    width: 40%;
+    border-radius: 15px;
+}
+  
+.Piola p{
+   display: flex;
+   justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.title1 {
+    margin: 0px;
+    margin-right: 630px;
+    padding: 15px;
+    background-color: #4c5742; 
+}
+
+.title2 {
+    margin: 100px;
+    margin-right: 0px;
+    padding: 13px;
+    background-color: #021b30; 
+    text-align: left;
+}
+
+
+.Piola p{
+   display: flex;
+   justify-content: center;
+}
+
+#principal{
+    width: calc(100% - 450px);
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 16%;
+}
+
+
+.b{
+    background-color: #4B5842;
+    color:  black;
+}
+    
+.b:hover{
+    transform: scale(1.1);
+}
+
+.out{
+    background-color: #021b30;
+    color: #4B5842;
+}
+
+.out:hover{
+    transform: scale(1.1);
+}
+
+.barra-de-busca{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.barra-de-busca input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.barra-de-busca button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.lista-alunos{
+    border-collapse: collapse;
+    width: 99%; 
+    max-width: 1000px; 
+    text-align: center;
+    margin-left: 1%;
+}
+
+.lista-alunos th, .lista-alunos td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th{
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.answer-button{
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
