@@ -92,13 +92,10 @@
     </main>
 
     <script>
-        // Captura todos os elementos com a classe "meuBotao"
         var botoes = document.querySelectorAll(".answer-button");
 
-        // Adiciona um ouvinte de evento de clique a cada botão
         botoes.forEach(function(botao) {
             botao.addEventListener("click", function() {
-                // Redireciona para a outra página
                 window.location.href = "indexrespostas.html";
             });
         });
